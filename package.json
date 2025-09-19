@@ -1,0 +1,75 @@
+{
+  "name": "tanstack-start-template",
+  "version": "1.0.0",
+  "description": "🏝️ minimal TanStack Start template with Drizzle ORM and shadcn/ui featuring OAuth, email-password, passkeys, email verification, TOTP 2FA, recovery codes, and rate limiting.",
+  "keywords": [
+    "tanstack-start",
+    "drizzle-orm",
+    "shadcn-ui",
+    "passkeys",
+    "email-verification",
+    "2fa",
+    "rate-limiting"
+  ],
+  "homepage": "https://github.com/thecodingmontana/tanstack-authed#readme",
+  "bugs": {
+    "url": "https://github.com/thecodingmontana/tanstack-authed/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thecodingmontana/tanstack-authed.git"
+  },
+  "license": "MIT",
+  "author": "codewithmontana",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "lint": "biome lint .",
+    "lint:fix": "biome lint --fix .",
+    "format": "biome format --write .",
+    "check": "biome check --fix . && tsc --noEmit",
+    "deps": "pnpm dlx taze@latest -Ilw",
+    "deps:major": "pnpm dlx taze@latest major -Ilw",
+    "ui": "pnpm dlx shadcn@latest",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "@radix-ui/react-slot": "^1.2.3",
+    "@tailwindcss/postcss": "^4.1.13",
+    "@tanstack/react-router": "^1.131.48",
+    "@tanstack/react-start": "^1.131.48",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.544.0",
+    "postcss": "^8.5.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss": "^4.1.13",
+    "vite": "^7.1.6"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.2",
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@types/node": "^24.5.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "babel-plugin-react-compiler": "19.1.0-rc.3",
+    "husky": "^9.1.7",
+    "lefthook": "^1.13.1",
+    "lint-staged": "^16.1.6",
+    "tw-animate-css": "^1.3.8",
+    "typescript": "^5.9.2",
+    "ultracite": "5.3.8",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,jsonc,css,scss,md,mdx}": [
+      "pnpm dlx ultracite fix"
+    ]
+  }
+}
